@@ -1,0 +1,9 @@
+﻿application.obj : error LNK2019: ссылка на неразрешенный внешний символ glfwInit в функции main.
+application.obj : error LNK2019: ссылка на неразрешенный внешний символ glfwTerminate в функции main.
+application.obj : error LNK2019: ссылка на неразрешенный внешний символ glfwCreateWindow в функции main.
+application.obj : error LNK2019: ссылка на неразрешенный внешний символ glfwWindowShouldClose в функции main.
+application.obj : error LNK2019: ссылка на неразрешенный внешний символ glfwPollEvents в функции main.
+application.obj : error LNK2019: ссылка на неразрешенный внешний символ glfwMakeContextCurrent в функции main.
+application.obj : error LNK2019: ссылка на неразрешенный внешний символ glfwSwapBuffers в функции main.
+C:\Users\LeGiOn\Desktop\dev\Project1\Dependancies\GLFW\lib-vc2022\glfw3.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+C:\Users\LeGiOn\Desktop\dev\Project1\x64\Debug\opengltester.exe : fatal error LNK1120: неразрешенных внешних элементов: 7
