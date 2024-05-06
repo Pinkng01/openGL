@@ -1,6 +1,8 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 #include <iostream>
+#include "shaderR.h"
+
 
 static int CompileShader(unsigned int type, const std::string& source)
 {
@@ -69,7 +71,10 @@ int main(void)
     if (glewInit() != GLEW_OK) 
         std::cout << "glew init error!!!!";
     
-    std::cout << glGetString(GL_VERSION);
+    std::cout << glGetString(GL_VERSION)<<std::endl;
+
+    std::string shader1 = shader_read("C:\\Users\\LeGiOn\\Desktop\\dev\\Project1\\Dependancies\\SHADERS\\vertex.txt");
+    std::cout << shader1;
 
     float pointerData[6]{
          -0.5f, -0.5f,
